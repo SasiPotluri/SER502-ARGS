@@ -1,0 +1,37 @@
+SHOW("THIS iS ARGS PROGRAMMING LANGUAGE")
+
+!! **** Sample Program for Operators: Logical Operators  and Primitive Types : number, string, boolean and float and List **** !!
+
+!!---initializing values---!!
+SHOW("Logical Operators")
+VAR x =:= 4
+VAR y =:= 2
+
+!!---computing values---!!
+VAR and_op =:= x>y && y>10
+VAR or_op =:= x>y || y>0
+VAR not_op =:= ##(x>y || y>10)
+
+
+!!---display values---!!
+SHOW("VAR and_op =:= x>y && y>10, VAR or_op =:= x>y || y>0, VAR not_op =:= ##(x>y || y>10). The values of these operations are:")
+SHOW(and_op)
+SHOW(or_op)
+SHOW(not_op)
+
+!!---primitive types---!!
+SHOW("Data Types implemented are: number, string, boolean and float")
+VAR num =:= 456
+SHOW(num)
+VAR str =:= "This is a string"
+SHOW(str)
+VAR bit =:= true
+SHOW(bit)
+
+!!--extra primitive types--!!
+VAR decimal =:= 3.56
+SHOW(decimal)
+SHOW("List and Addition to list")
+VAR list =:= [1,2,3]
+SHOW(list)
+SHOW("[1,2,3]+4"); SHOW([1,2,3]+4)

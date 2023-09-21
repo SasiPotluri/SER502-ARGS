@@ -1,0 +1,29 @@
+SHOW("THIS iS ARGS PROGRAMMING LANGUAGE")
+
+!! **** Sample Program for Operators: Arithmetic Operators **** !!
+
+!!---taking inputs---!!
+!!---extra feature- taking user input---!!
+
+SHOW("Arithematic Operators")
+SHOW("Enter value of x:")
+VAR x =:= INPUT_INT()
+SHOW("Enter value of y:")
+VAR y =:= INPUT_INT() 
+
+!!---computing values---!!
+VAR add =:= x+y
+VAR subtract =:= x~y
+VAR multiply =:= x>*y
+VAR division =:= x>/y
+VAR modulus =:= x$y
+VAR pow =:= x^*y
+
+!!---display values---!!
+SHOW("The addition, subtraction, multiplication, division, modulus and power of these two values respectively are:")
+SHOW(add)
+SHOW(subtract)
+SHOW(multiply)
+SHOW(division)
+SHOW(modulus)
+SHOW(pow)

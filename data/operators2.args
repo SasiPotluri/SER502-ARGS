@@ -1,0 +1,27 @@
+SHOW("THIS iS ARGS PROGRAMMING LANGUAGE")
+
+!! **** Sample Program for Operators: Comparison Operators **** !!
+
+!!---taking inputs---!!
+SHOW("Comparison Operators")
+SHOW("Enter value of x:")
+VAR x =:= INPUT_INT()
+SHOW("Enter value of y:")
+VAR y =:= INPUT_INT()
+
+!!---computing values---!!
+VAR greater_than =:= x>y
+VAR less_than =:= x<y
+VAR equal_to =:= x=::=y
+VAR not_equal_to =:= x!=:=y
+VAR greater_than_equal_to =:= x>=:=y
+VAR less_than_equal_to =:= x<=:=y
+
+!!---display values---!!
+SHOW("The >, <, =::=, !=:=, >=:= and <=:= comparison values of these two inputs respectively are:")
+SHOW(greater_than)
+SHOW(less_than)
+SHOW(equal_to)
+SHOW(not_equal_to)
+SHOW(greater_than_equal_to)
+SHOW(less_than_equal_to)

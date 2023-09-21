@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./ep3",
+        "./src/runtime",
+        "./src/compiler"
+    ]
+}

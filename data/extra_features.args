@@ -1,0 +1,69 @@
+SHOW("THIS iS ARGS PROGRAMMING LANGUAGE")
+
+!! **** Sample Program for most of the Extra Features Implemented **** !!
+
+!!---BREAK---!!
+SHOW("!!---BREAK---!!")
+
+!!---CONTINUE---!!
+SHOW("!!---CONTINUE---!!")
+
+VAR x =:= 0
+
+FOR i =:= 0 TO 10 THEN ; 
+IF i=::=4 THEN CONTINUE ELIF i =::= 8 THEN BREAK ;
+END
+
+SHOW(x)
+
+
+!!---LIST---!!
+SHOW("!!---LIST---!!")
+
+VAR decimal =:= 3.56
+SHOW(decimal)
+SHOW("List and list concatenation")
+VAR list =:= [1,2,3]
+SHOW(list)
+SHOW("[1,2,3]+4"); SHOW([1,2,3]+4)
+
+!!---INPUT_INT---!!
+SHOW("!!---INPUT_INT---!!")
+SHOW("Enter int value of x:")
+VAR x =:= INPUT_INT()
+SHOW("Enter int value of y:")
+VAR y =:= INPUT_INT() 
+SHOW(x+y)
+
+!!---INPUT---!!
+SHOW("!!---INPUT---!!")
+SHOW("Enter string value of x:")
+VAR x =:= INPUT()
+SHOW("Enter value of y:")
+VAR y =:= INPUT() 
+SHOW(x+y)>*2
+
+!!---IS_NUM---!!
+SHOW("!!---IS_NUM---!!")
+SHOW("IS_NUM(5)??")
+SHOW(IS_NUM(5))
+SHOW("IS_NUM(true)??")
+SHOW(IS_NUM(true))
+SHOW("IS_NUM(string)??")
+SHOW(IS_NUM("string"))
+
+!!---IS_STR---!!
+SHOW("!!---IS_STR---!!")
+SHOW("IS_STR(5)??")
+SHOW(IS_STR(5))
+SHOW("IS_STR(true)??")
+SHOW(IS_STR(true))
+SHOW("IS_STR(string)??")
+SHOW(IS_STR("string"))
+
+!!---IS_LIST---!!
+SHOW("!!---IS_LIST---!!")
+SHOW("IS_LIST([1,2,3])??")
+SHOW(IS_LIST([1,2,3]))
+SHOW("[1,2,3]+[4,5]??")
+SHOW([1,2,3]+[4,5])

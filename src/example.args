@@ -1,0 +1,3 @@
+SHOW("Gree")
+SHOW(1+2)
+SHOW(1~2)

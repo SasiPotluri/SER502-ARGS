@@ -1,0 +1,13 @@
+SHOW("THIS iS ARGS PROGRAMMING LANGUAGE")
+
+!! **** Sample Program for Conditinal Constructs: IF THEN ELSE **** !!
+
+VAR x =:= 0
+
+IF x >=:= 10 THEN SHOW("IF-THEN condition") ELIF x >=:= 5 THEN SHOW("ELIF-THEN condition") ELSE SHOW("ELSE condition")
+
+!! **** Sample Program for Conditinal Constructs: TERNARY OPERATOR **** !!
+
+VAR x =:= 0
+
+TERNARY x >=:= 10 ?? SHOW("TERNARY TRUE") :: SHOW("TERNARY FALSE")

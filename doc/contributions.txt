@@ -1,0 +1,13 @@
+﻿Milestone 1:
+
+Tool Research and information gathering : Akanksha, Sasikanth
+Language Constraints and operators: Girija, Rachana
+Grammar : Akanksha, Girija, Rachana, Sasikanth
+
+
+Plan for Milestone 2:
+
+Operators, Data Types and initial code steup: Akanksha
+Looping Structures, comments: Girija
+Conditional Constructs, print statement: Sasi
+Extra Features, RUN, Built-In-Functions, Multi-line: Rachana
